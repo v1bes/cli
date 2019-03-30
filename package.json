@@ -1,0 +1,32 @@
+{
+  "name": "cli-v1bes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1bes/cli.git"
+  },
+  "author": "elhenro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v1bes/cli/issues"
+  },
+  "homepage": "https://github.com/v1bes/cli#readme",
+  "dependencies": {
+    "@octokit/rest": "^16.22.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.110.0",
+    "touch": "^3.1.0"
+  }
+}
