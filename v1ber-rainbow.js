@@ -43,9 +43,9 @@ function rainbow(string, offset) {
 
 function mixWords(string){
 	let arrBuffer = inputText.split(" ")
-	//let buffer = shuffle(arrBuffer).toString("")
 	let buffer =  shuffle(arrBuffer).join(' ');
 
+	// if current terminal width > string length
 	while ( process.stdout.columns > buffer.length+5) {
 		buffer = buffer.concat(` ${arrBuffer[1]}`)
 	}

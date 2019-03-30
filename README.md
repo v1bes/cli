@@ -18,3 +18,4 @@ and add text as the 2nd parameter
 ``` bash
 ➜ node v1ber-rainbow.js rainbow-single-random "hello v1bes"
 ```
+
